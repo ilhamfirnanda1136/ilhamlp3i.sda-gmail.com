@@ -1,0 +1,2 @@
+<button data-id="{{$model->id}}" class="btn-success btn btn-sm btn-edit" data-kategori="{{$model->kategori}}" data-nama="{{$model->nama_perkara}}"><i class="fa fa-edit"></i></button>
+<a href='{{url("hapus/perkara")}}' data-id="{{$model->id}}" onclick="event.preventDefault(); hapusPerkara(this)" class="btn-danger btn btn-sm"><i class="fa fa-trash"></i></a>
